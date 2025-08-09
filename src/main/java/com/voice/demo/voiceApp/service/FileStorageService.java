@@ -26,7 +26,7 @@ public class FileStorageService {
                 writer.write(transcript);
             }
 
-            return filePath.toAbsolutePath().toString();
+            return "File saved at: " + filePath.toAbsolutePath().toString();
         } catch (IOException e) {
             throw new RuntimeException("Failed to save transcript: " + e.getMessage(), e);
         }
