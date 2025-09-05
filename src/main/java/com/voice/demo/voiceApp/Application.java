@@ -11,3 +11,11 @@ public class Application {
 	}
 
 }
+
+// Open Postman →
+
+//Method: POST
+
+//URL: http://localhost:8080/api/speech/upload
+
+//Body → form-data → key: file → select .mp3 file.   
